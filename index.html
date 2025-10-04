@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Academic Portfolio | Research & Publications</title>
+    <meta name="description" content="Academic portfolio featuring education, research publications, and professional contact information">
+    <meta name="author" content="Md Boktiar Hossain">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+    
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+    
+    <!-- Meta Tags -->
+    <meta property="og:title" content="Academic Portfolio | Research & Publications">
+    <meta property="og:description" content="Academic portfolio featuring education, research publications, and professional contact information">
+    <meta property="og:type" content="website">
+    
+    <meta name="twitter:card" content="summary_large_image">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+    <!-- Mobile Menu Button -->
+    <button id="mobile-menu-btn" class="mobile-menu-btn" aria-label="Toggle menu">
+        <i data-lucide="menu" class="menu-icon"></i>
+        <i data-lucide="x" class="close-icon hidden"></i>
+    </button>
+
+    <!-- Sidebar -->
+    <aside id="sidebar" class="sidebar">
+        <!-- Profile Section -->
+        <div class="profile-section">
+            <div class="profile-avatar">
+                <img src="image/profile.jpg" alt="Md Boktiar Hossain Profile" class="avatar-image">
+            </div>
+            <h2 class="profile-name">Md Boktiar Hossain</h2>
+            <p class="profile-title">PhD Student</p>
+            <p class="profile-field">Oklahoma State University</p>
+        </div>
+
+        <!-- Navigation -->
+        <nav class="navigation">
+            <ul class="nav-list">
+                <li>
+                    <a href="#about" class="nav-link active" data-section="about">
+                        <i data-lucide="user"></i>
+                        <span>About</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#education" class="nav-link" data-section="education">
+                        <i data-lucide="graduation-cap"></i>
+                        <span>Education</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#publications" class="nav-link" data-section="publications">
+                        <i data-lucide="file-text"></i>
+                        <span>Publications</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#contact" class="nav-link" data-section="contact">
+                        <i data-lucide="mail"></i>
+                        <span>Contact</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- Footer -->
+        <div class="sidebar-footer">
+            <p>© 2025 All Rights Reserved.</p>
+        </div>
+    </aside>
+
+    <!-- Mobile Overlay -->
+    <div id="mobile-overlay" class="mobile-overlay hidden"></div>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <div class="content-wrapper">
+        <!-- About Section -->
+        <section id="about" class="section">
+            <div class="section-container">
+                <div class="section-header">
+                    <h1 class="section-title">About</h1>
+                    <div class="section-divider"></div>
+                </div>
+
+                <div class="about-list">
+                    <div class="about-card">
+
+                        <p class="about-description">
+                            I'm a PhD student in Computer Science at Oklahoma State University, working in the
+                            <a href="https://congpu.github.io/secnet/index.html" target="_blank">Security and Networking Lab</a>. under the supervision of Dr. Cong Pu.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education" class="section">
+            <div class="section-container">
+                <div class="section-header">
+                    <h1 class="section-title">Education</h1>
+                    <div class="section-divider"></div>
+                </div>
+
+                <div class="education-list">
+                    <!-- PhD -->
+                    <div class="education-card">
+                        <div class="card-header">
+                            <div class="degree-info">
+                                <h2 class="degree-title">
+                                    <i data-lucide="graduation-cap" class="degree-icon"></i>
+                                    <span>PhD Student</span>
+                                </h2>
+                                <h3 class="degree-field">Computer Science</h3>
+                            </div>
+                            <div class="degree-period">
+                                <i data-lucide="calendar"></i>
+                                <span>2025 - Present</span>
+                            </div>
+                        </div>
+
+                        <div class="institution-info">
+                            <i data-lucide="map-pin" class="location-icon"></i>
+                            <div>
+                                <p class="institution-name">Oklahoma State University</p>
+                                <p class="institution-location">Stillwater, Oklahoma</p>
+                            </div>
+                        </div>
+                        <!-- <div class="highlights">
+                            <p class="highlights-title">Highlights:</p>
+                            <ul class="highlights-list">
+                                <li>coming soon</li>
+                            </ul>
+                        </div> -->
+                    </div>
+
+                    <!-- Masters -->
+                    <div class="education-card">
+                        <div class="card-header">
+                            <div class="degree-info">
+                                <h2 class="degree-title">
+                                    <i data-lucide="graduation-cap" class="degree-icon"></i>
+                                    <span>Master of Science</span>
+                                </h2>
+                                <h3 class="degree-field">Electrical Engineering</h3>
+                            </div>
+                            <div class="degree-period">
+                                <i data-lucide="calendar"></i>
+                                <span>2024</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Publications Section -->
+        <section id="publications" class="section">
+            <div class="section-container">
+                <div class="section-header">
+                    <h1 class="section-title">Publications</h1>
+                    <div class="section-divider"></div>
+                    <p class="section-subtitle">
+                        Selected publications in machine learning, deep learning, and artificial intelligence
+                    </p>
+                </div>
+
+                <div class="publications-list">
+                    <!-- Publication 1 -->
+                    <div class="publication-card">
+                        <div class="publication-header">
+                            <div class="publication-icon">
+                                <i data-lucide="file-text"></i>
+                            </div>
+                            <div class="publication-info">
+                                <h2 class="publication-title">Design and Simulation of a 1×2 Rectangular Microstrip Patch Antenna Array with Feeding Network</h2>
+                                <p class="publication-authors">Md Boktiar Hossain, Khandoker Hoque, Samane Abdi, Ehsan Bazgir, Mohammad Atikur Rahman</p>
+                                <div class="publication-meta">
+                                    <span class="publication-venue">2025 Fifth International Conference on Advances in Electrical, Computing, Communications and <br>Sustainable Technologies (ICAECT 2025)</span>
+                                    <span class="meta-separator">•</span>
+                                    <span class="publication-year">2025</span>
+                                    <span class="badge badge-published">Published</span>
+                                    <span class="badge badge-outline">Conference</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Publication 2 -->
+                    <div class="publication-card">
+                        <div class="publication-header">
+                            <div class="publication-icon">
+                                <i data-lucide="file-text"></i>
+                            </div>
+                            <div class="publication-info">
+                                <h2 class="publication-title">Performance Analysis of Yagi and Helix Antennas at 7.2 GHz with Far-Field Propagation Evaluation</h2>
+                                <p class="publication-authors">Khandoker Hoque, Md Boktiar Hossain, Abu Bakar Siddik, Md Masum Billah, Daniel Lucky Michael, Mohammad Atikur Rahman</p>
+                                <div class="publication-meta">
+                                    <span class="publication-venue">8th International Conference on Trends in Electronics and Informatics</span>
+                                    <span class="meta-separator">•</span>
+                                    <span class="publication-year">2025</span>
+                                    <span class="badge badge-published">Published</span>
+                                    <span class="badge badge-outline">Conference</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Publication 3 -->
+                    <div class="publication-card">
+                        <div class="publication-header">
+                            <div class="publication-icon">
+                                <i data-lucide="file-text"></i>
+                            </div>
+                            <div class="publication-info">
+                                <h2 class="publication-title">Detection of Coal Miner with a Comprehensive Dataset Using Transfer Learning Techniques</h2>
+                                <p class="publication-authors">Md Sazedur Rahman, Khandoker Hoque, Md Boktiar Hossain, Denesh Das, Tao Wu</p>
+                                <div class="publication-meta">
+                                    <span class="publication-venue">International Conference on Computing and Communication Networks</span>
+                                    <span class="meta-separator">•</span>
+                                    <span class="publication-year">2024</span>
+                                    <span class="badge badge-published">Published</span>
+                                    <span class="badge badge-outline">Conference</span>
+                                    <span class="badge badge-outline">Springer Nature Singapore</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Publication 4 -->
+                    <div class="publication-card">
+                        <div class="publication-header">
+                            <div class="publication-icon">
+                                <i data-lucide="file-text"></i>
+                            </div>
+                            <div class="publication-info">
+                                <h2 class="publication-title">Hepatitis C Prediction Applying Different ML Classification Algorithms</h2>
+                                <p class="publication-authors">Md Boktiar Hossain, Khandoker Hoque, Mohammad Atikur Rahman, Priya Podder, Deepak Gupta</p>
+                                <div class="publication-meta">
+                                    <span class="publication-venue">International Conference on Computing and Communication Networks</span>
+                                    <span class="meta-separator">•</span>
+                                    <span class="publication-year">2024</span>
+                                    <span class="badge badge-published">Published</span>
+                                    <span class="badge badge-outline">Conference</span>
+                                    <span class="badge badge-outline">Springer Nature Singapore</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Publication 5 -->
+                    <div class="publication-card">
+                        <div class="publication-header">
+                            <div class="publication-icon">
+                                <i data-lucide="file-text"></i>
+                            </div>
+                            <div class="publication-info">
+                                <h2 class="publication-title">Integration of IoT in Energy Sector</h2>
+                                <p class="publication-authors">Khandoker Hoque, Md Boktiar Hossain, Denesh Das, Partha Protim Roy</p>
+                                <div class="publication-meta">
+                                    <span class="publication-venue">International Journal of Computer Applications</span>
+                                    <span class="meta-separator">•</span>
+                                    <span class="publication-year">2024</span>
+                                    <span class="badge badge-outline">Journal</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                     <!-- Publication 6 -->
+                     <div class="publication-card">
+                        <div class="publication-header">
+                            <div class="publication-icon">
+                                <i data-lucide="file-text"></i>
+                            </div>
+                            <div class="publication-info">
+                                <h2 class="publication-title">Technological trends in 5G networks for IoT-enabled smart healthcare: A review</h2>
+                                <p class="publication-authors">Khandoker Hoque, Md Boktiar Hossain, Anhar Sami, Denesh Das, Abdul Kadir, Mohammad Atikur Rahman</p>
+                                <div class="publication-meta">
+                                    <span class="publication-venue">Int. J. Sci. Res. Archive</span>
+                                    <span class="meta-separator">•</span>
+                                    <span class="publication-year">2024</span>
+                                    <span class="badge badge-outline">Source</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section">
+            <div class="section-container">
+                <div class="section-header">
+                    <h1 class="section-title">Contact</h1>
+                    <div class="section-divider"></div>
+                    <p class="section-subtitle">
+                        Feel free to reach out for research collaborations, speaking opportunities, or general inquiries
+                    </p>
+                </div>
+
+                <!-- Get in Touch Section -->
+                <div class="get-in-touch-section">
+                    <div class="contact-boxes">
+                        <a href="mailto:md_boktiar.hossain@okstate.edu" class="contact-box">
+                            <div class="contact-box-icon">
+                                <i data-lucide="mail"></i>
+                            </div>
+                            <div class="contact-box-content">
+                                <h3 class="contact-box-title">Email</h3>
+                                <p class="contact-box-value">md_boktiar.hossain@okstate.edu</p>
+                            </div>
+                        </a>
+
+                        <a href="tel:+13412046400" class="contact-box">
+                            <div class="contact-box-icon">
+                                <i data-lucide="phone"></i>
+                            </div>
+                            <div class="contact-box-content">
+                                <h3 class="contact-box-title">Phone</h3>
+                                <p class="contact-box-value">+1 (341) 204 6400</p>
+                            </div>
+                        </a>
+
+                        <div class="contact-box">
+                            <div class="contact-box-icon">
+                                <i data-lucide="map-pin"></i>
+                            </div>
+                            <div class="contact-box-content">
+                                <h3 class="contact-box-title">Address</h3>
+                                <p class="contact-box-value">623 South Hester,<br>Stillwater, Oklahoma</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        </div>
+    </main>
+    <!-- JavaScript -->
+    <script src="styles/script.js"></script>
+</body>
+</html>
