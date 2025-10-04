@@ -528,7 +528,7 @@ h1, h2, h3, h4, h5, h6 {
 .publication-icon {
     padding: 0.5rem;
     border-radius: var(--radius);
-    background-color: hsl(214, 95%, 45%, 0.1);
+    background-color: rgba(0, 0, 0, 0.1);
     color: var(--primary);
     flex-shrink: 0;
 }
@@ -671,7 +671,7 @@ h1, h2, h3, h4, h5, h6 {
 .awards-icon {
     padding: 0.75rem;
     border-radius: var(--radius);
-    background-color: hsl(214, 95%, 45%, 0.1);
+    background-color: rgba(0, 0, 0, 0.1);
     color: var(--primary);
 }
 
@@ -759,7 +759,7 @@ h1, h2, h3, h4, h5, h6 {
 .contact-icon {
     padding: 0.5rem;
     border-radius: var(--radius);
-    background-color: hsl(214, 95%, 45%, 0.1);
+    background-color: rgba(0, 0, 0, 0.1);
     color: var(--primary);
     flex-shrink: 0;
 }
@@ -837,7 +837,7 @@ h1, h2, h3, h4, h5, h6 {
     width: 4rem;
     height: 4rem;
     border-radius: var(--radius);
-    background-color: hsl(214, 95%, 45%, 0.1);
+    background-color: rgba(0, 0, 0, 0.1);
     color: var(--primary);
     flex-shrink: 0;
 }
